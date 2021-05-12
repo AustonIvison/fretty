@@ -10,15 +10,15 @@ const notes = [
 ],
 // third sring G
 [
-    'G#','A','A#','B','C','C#','D','D#','E','F','F#'
+    'G#','A','A#','B','C','C#','D','D#','E','F','F#','G'
 ],
 // fourth string D
 [
-    'D#','E','F','F#','G','G#','A','A#','B','C','C#'
+    'D#','E','F','F#','G','G#','A','A#','B','C','C#','D'
 ],
 // fifth string A
 [
-    'A#','B','C','C#','D','D#','E','F','F#','G','G#'
+    'A#','B','C','C#','D','D#','E','F','F#','G','G#','A'
 ],
 // six string big E
 [
