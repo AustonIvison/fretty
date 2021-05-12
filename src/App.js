@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import notes from './notes';
+
 
 function App() {
   return (
@@ -9,14 +11,27 @@ function App() {
         <p>
           fretty
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <table>
+      {
+        // computation here
+       // JSON.stringify(notes)
+       notes.map((guitarstring) => {
+       //return JSON.stringify(guitarstring)
+       return (
+         <tr>
+           {
+             guitarstring.map((fret)=> {
+               return (
+                 <td>
+                   {fret}
+                 </td>
+               )
+             })
+           }
+         </tr>
+       )
+       })
+      }</table>
       </header>
     </div>
   );
