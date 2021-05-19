@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fretty/static/css/main.bdb6f44e.chunk.css",
-    "main.js": "/fretty/static/js/main.145c69e4.chunk.js",
-    "main.js.map": "/fretty/static/js/main.145c69e4.chunk.js.map",
+    "main.css": "/fretty/static/css/main.eecb0c0a.chunk.css",
+    "main.js": "/fretty/static/js/main.60cae7cb.chunk.js",
+    "main.js.map": "/fretty/static/js/main.60cae7cb.chunk.js.map",
     "runtime-main.js": "/fretty/static/js/runtime-main.5128e74c.js",
     "runtime-main.js.map": "/fretty/static/js/runtime-main.5128e74c.js.map",
     "static/js/2.733b98c7.chunk.js": "/fretty/static/js/2.733b98c7.chunk.js",
@@ -10,14 +10,14 @@
     "static/js/3.cce1f3cd.chunk.js": "/fretty/static/js/3.cce1f3cd.chunk.js",
     "static/js/3.cce1f3cd.chunk.js.map": "/fretty/static/js/3.cce1f3cd.chunk.js.map",
     "index.html": "/fretty/index.html",
-    "static/css/main.bdb6f44e.chunk.css.map": "/fretty/static/css/main.bdb6f44e.chunk.css.map",
+    "static/css/main.eecb0c0a.chunk.css.map": "/fretty/static/css/main.eecb0c0a.chunk.css.map",
     "static/js/2.733b98c7.chunk.js.LICENSE.txt": "/fretty/static/js/2.733b98c7.chunk.js.LICENSE.txt",
     "static/media/logo.6ce24c58.svg": "/fretty/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5128e74c.js",
     "static/js/2.733b98c7.chunk.js",
-    "static/css/main.bdb6f44e.chunk.css",
-    "static/js/main.145c69e4.chunk.js"
+    "static/css/main.eecb0c0a.chunk.css",
+    "static/js/main.60cae7cb.chunk.js"
   ]
 }
