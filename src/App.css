@@ -43,10 +43,16 @@ table {
 }
 tr {
   border-bottom:2px solid white;
+  border-left:2px solid white;
 }
 
 td {
   border-right:2px solid white;
   width:60px;
-  height:45px;
+  height: 60px;
+}
+
+.active{
+  background-color: red;
+  border-radius: 50%;
 }
