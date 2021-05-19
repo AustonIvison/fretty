@@ -38,6 +38,8 @@
 }
 table {
   border-collapse: collapse;
+  border-top:2px solid white;
+  border-left:2x solid white; 
 }
 tr {
   border-bottom:2px solid white;

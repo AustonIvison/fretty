@@ -6,7 +6,7 @@ const notes = [
 ],
 // second string B
 [
-    'B','C','C#','D','D#','E','F','F#','G','G#','A','A#'
+    'C','C#','D','D#','E','F','F#','G','G#','A','A#','B'
 ],
 // third sring G
 [
