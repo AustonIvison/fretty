@@ -26,7 +26,7 @@ const notes = [
 ],
 ];
 
-const cscale = [
+export const cscale = [
     // notes in the scale of C Major
     'C','D','E','F','G','A','B'
 ];
@@ -61,6 +61,10 @@ const fsharpscale = [
     'C#','D#','F','F#','G#','A','B'
 ];
 
+const pentatonicscale = [
+    // notes of the pentatonic scale
+    'C','D','E','G','A','C'
+];
  
 
 export default notes;

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import notes from './notes';
+import notes, {cscale} from './notes';
 
 function App() {
   const [showScale, setShowScale] = React.useState(false);
@@ -9,6 +9,13 @@ function App() {
     setShowScale(!showScale);
     console.log(showScale)
   }
+const determineActive=(f) => {
+// is the note I'm looking at in cscale, if it is return the string active else return inactive
+// if showScale = false, it should always be inactive
+// console.log(cscale.includes(f))
+return cscale.includes(f)?'active':'inactive';
+}
+
   return (
     <div className="App">
       <header className="App-header">
@@ -30,7 +37,7 @@ function App() {
            {
              guitarstring.map((fret)=> {
                return (
-                 <td className={fret==='F' && showScale?'active':'inactive'}>
+                 <td className={showScale?determineActive(fret):'inactive'}>
                    {fret}
                  </td>
                )
