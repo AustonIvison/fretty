@@ -28,7 +28,9 @@ return scales[selected].includes(f)?'active':'inactive';
         <button onClick={
           toggleScale
         } >showScale: {JSON.stringify(showScale)}</button>
-        {Object.keys(scales).map((scale)=> (<button onClick={()=>setSelected(scale)}>{scale}</button>))}
+        {Object.keys(scales).map((scale)=> (
+        
+        <button disabled={scale===selected} onClick={()=>setSelected(scale)}>{scale}</button>))}
       {/* move all scales and the button will select which scales we want hightlighted*/}
         <table>
       {
