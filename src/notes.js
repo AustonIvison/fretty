@@ -48,7 +48,7 @@ const ascale = [
 
 const escale = [
     // notes in scale of E major
-    'C#','D#','E','F#','G#','A','B',
+    'C#','D#','E','F#','G#','A','B'
 ];
 
 const bscale = [

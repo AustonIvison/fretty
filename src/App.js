@@ -1,10 +1,12 @@
 import * as React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import notes, {cscale} from './notes';
+import notes from './notes';
+import scales from './scales';
 
 function App() {
   const [showScale, setShowScale] = React.useState(false);
+  const [selected, setSelected] = React.useState("c");
   const toggleScale = () => {
     setShowScale(!showScale);
     console.log(showScale)
@@ -13,7 +15,7 @@ const determineActive=(f) => {
 // is the note I'm looking at in cscale, if it is return the string active else return inactive
 // if showScale = false, it should always be inactive
 // console.log(cscale.includes(f))
-return cscale.includes(f)?'active':'inactive';
+return scales[selected].includes(f)?'active':'inactive';
 }
 
   return (
@@ -26,6 +28,8 @@ return cscale.includes(f)?'active':'inactive';
         <button onClick={
           toggleScale
         } >showScale: {JSON.stringify(showScale)}</button>
+        {Object.keys(scales).map((scale)=> (<button onClick={()=>setSelected(scale)}>{scale}</button>))}
+      {/* move all scales and the button will select which scales we want hightlighted*/}
         <table>
       {
         // computation here
